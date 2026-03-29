@@ -14,7 +14,7 @@ export default function Home() {
 
     setLoading(true);
 
-    const res = await fetch("https://threatlens-backend.onrender.com/upload-apk", {
+    const res = await fetch("https://threatlens-backend-1eo8.onrender.com/upload-apk", {
       method: "POST",
       body: formData,
     });
