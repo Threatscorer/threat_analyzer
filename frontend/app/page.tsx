@@ -14,7 +14,7 @@ export default function Home() {
 
     setLoading(true);
 
-    const res = await fetch("http://localhost:8000/upload-apk", {
+    const res = await fetch("https://threat-analyzer-yo0y.onrender.com/upload-apk", {
       method: "POST",
       body: formData,
     });
